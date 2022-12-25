@@ -30,10 +30,7 @@ video{
     margin:auto;
     position:relative;
     z-index: 2;
-
-}
- body{
     text-align: center;
     color: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
+}

@@ -21,7 +21,7 @@ video{
 }
 
 .primerdiv{
-    padding-top: 350px;
+    padding-top: 50px;
     display: flex;
     flex-direction:column;
     justify-content: center;

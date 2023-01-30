@@ -38,3 +38,8 @@ video{
 body{
     background-color: black;
 }
+
+button{
+    color: black;
+    text-decoration: none;
+}

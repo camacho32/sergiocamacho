@@ -1,6 +1,7 @@
 .titulo{
     color: yellow;
     background-color: red;
-    width: 50px;
+    width: auto;
     height: auto;
+
 }

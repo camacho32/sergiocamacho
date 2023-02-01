@@ -3,5 +3,29 @@
     background-color: red;
     width: auto;
     height: auto;
-
 }
+
+  /* Estilos para la cabecera superior */
+  header {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Estilos para la cabecera inferior */
+  footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* Estilos para el cuerpo principal */
+  main {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+  }

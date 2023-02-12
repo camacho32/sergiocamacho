@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULARIO</title>
+    <link rel="stylesheet" href="../estilos/formulario.css">
 </head>
 <body>
-    
+
+    <form action="enviar.html" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="telefono">Número de teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" name="direccion" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="marca">Marca de coche favorita:</label>
+      <select id="marca" name="marca">
+        <option value="ferrari">Ferrari</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="porsche">Porsche</option>
+        <option value="ford">Ford</option>
+      </select>
+      <button><a href="gracias.html">ENVIAR</a></button>
+    </form>
+
+
 </body>
 </html>

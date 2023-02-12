@@ -44,9 +44,8 @@ nav li:hover > ul {
 }
 
 nav ul:hover{
-  background-color: #00000070;
+  background-color: #000000;
 }
-
 form {
    float: left;
    position: absolute;
@@ -230,7 +229,19 @@ body{
 
 
 
+.aviso{
+  background-color: rgba(194, 97, 97, 0.817);
+  color: white;
+  margin-top: 9%;
+  width: 9%;
+  position: absolute;
+  margin-left: 1%;
+}
 
+.aviso:hover{
+  background-color: #00000000;
+  color: #00000000;
+}
 
 
 

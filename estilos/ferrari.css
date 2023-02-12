@@ -36,7 +36,7 @@ nav ul ul {
   position: absolute; /* posiciona los submenús de forma absoluta */
   top: 100%; /* coloca los submenús justo debajo del menú principal */
   left: 0; /* los submenús se alinean con la izquierda del menú principal */
-  background-color: #000000; /* establece el fondo negro para los submenús */
+  background-color: #0000007d; /* establece el fondo negro para los submenús */
 }
 
 nav li:hover > ul {
@@ -44,7 +44,7 @@ nav li:hover > ul {
 }
 
 nav ul:hover{
-  background-color: #000000;
+  background-color: #0000007d;
 }
 form {
    float: left;
@@ -63,7 +63,7 @@ input[type="text"] {
 }
 
 button[type="submit"] {
-  background-color: #000000;
+  background-color: #0000007d;
   color: #fff;
   border: none;
   padding: 13px 15px;

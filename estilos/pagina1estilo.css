@@ -97,9 +97,14 @@ body{
   margin-left: 15%;
   position: absolute;
   color: white;
-  margin-top: 5%;
+  margin-top: 7%;
 }
-
+.imagenf1{
+  position: absolute;
+  height: 20%;
+  margin-top: 12%;
+  margin-left: 16%;
+}
 .enunciadof{
   color: yellow;
   margin-left: 19%;
@@ -137,27 +142,89 @@ body{
 .textof2{
   color: white;
   margin-left: 17%;
-  margin-top: 50%;
+  margin-top: 49%;
   position: absolute;
   width: 47%;
   font-size: 27px;
 }
 
 .tercerafoto{
-  height: 65%;
+  height: 69%;
   width: 70%;
   margin: auto;
   margin-left: 15%;
   position: absolute;
-  color: white;
-  margin-top: 84%;
+  color: rgb(0, 0, 0);
+  margin-top: 87%;
 }
 
 .imagenf3{
   position: absolute;
   height: 20%;
-  margin-top: 83%;
+  margin-top: 90%;
+  margin-left: 16%;
+}
+
+.textof3{
+  color: rgb(0, 0, 0);
+  margin-left: 17%;
+  margin-top: 89%;
+  position: absolute;
+  width: 47%;
+  font-size: 27px;
+}
+
+.cuartafoto{
+  height: 65%;
+  width: 70%;
+  margin: auto;
   margin-left: 15%;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  margin-top: 129%;
+}
+
+.imagenf4{
+  position: absolute;
+  height: 20%;
+  margin-top: 132%;
+  margin-left: 16%;
+}
+
+.textof4{
+  color: rgb(0, 0, 0);
+  margin-left: 17%;
+  margin-top: 132%;
+  position: absolute;
+  width: 47%;
+  font-size: 27px;
+}
+
+.quintafoto{
+  height: 65%;
+  width: 70%;
+  margin: auto;
+  margin-left: 15%;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  margin-top: 169%;
+}
+
+.imagenf5{
+  position: absolute;
+  height: 20%;
+  margin-top: 172%;
+  margin-left: 16%;
+}
+
+
+.textof5{
+  color: rgb(0, 0, 0);
+  margin-left: 17%;
+  margin-top: 170%;
+  position: absolute;
+  width: 47%;
+  font-size: 27px;
 }
 
 
@@ -170,20 +237,60 @@ body{
 
 
 
+
+.textof1{
+  color: rgb(0, 0, 0);
+  transition: color 1s ease-in-out;
+}
+.textof1:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.489);
+  transition: 2s;
+  font-weight: bold;
+}
 .textof2 {
-  color: rgba(220, 220, 220, 0.71);
+  color: rgb(0, 0, 0);
   transition: color 1s ease-in-out;
 }
 
 .textof2:hover {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.489);
+  transition: 2s;
+  font-weight: bold;
 }
-.textof1{
-  color: rgba(220, 220, 220, 0.71);
+.textof3{
+  color: rgb(0, 0, 0);
   transition: color 1s ease-in-out;
 }
-.textof1:hover {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+
+.textof3:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.489);
+  transition: 2s;
+  font-weight: bold;
+}
+
+.textof4{
+  color: rgb(0, 0, 0);
+  transition: color 1s ease-in-out;
+}
+
+.textof4:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.489);
+  transition: 2s;
+  font-weight: bold;
+}
+
+.textof5{
+  color: rgb(0, 0, 0);
+  transition: color 1s ease-in-out;
+}
+
+.textof5:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.489);
+  transition: 2s;
+  font-weight: bold;
 }
